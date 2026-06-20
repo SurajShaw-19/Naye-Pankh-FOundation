@@ -2,53 +2,59 @@
 
 A modern, responsive NGO website developed for the **NayePankh Foundation Web Development Internship Task**.
 
-## 🌟 About the Project
+---
 
-NayePankh Foundation is a youth-led NGO dedicated to uplifting underprivileged communities through education, food distribution, women's hygiene awareness, clothing drives, and social welfare initiatives.
+# 🌟 About The Project
 
-This website was designed to showcase the foundation's mission, impact, programs, and contact information through a clean and user-friendly interface.
+NayePankh Foundation is a youth-led NGO dedicated to uplifting underprivileged communities through:
+
+* 📚 Education Support
+* 🍱 Food Distribution
+* 🌸 Women Hygiene Awareness
+* 👗 Clothing Drives
+* 🏥 Health & Welfare Initiatives
+
+This website was designed to showcase the foundation's mission, impact, programs, volunteer opportunities, and contact information through a modern and responsive user interface.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-### 🏠 Home Page
+## 🏠 Home Page
 
-* Modern Hero Section
-* Foundation Introduction
+* Hero Section
+* About NayePankh
 * Impact Statistics
-* Key Initiatives
-* Responsive Layout
-* Dark / Light Theme Toggle
-
-### ℹ️ About Us Page
-
-* Foundation Story
-* Mission & Vision
-* Team & Volunteers
-* Organization Timeline
-* Achievement Highlights
-
-### 📚 Programs Page
-
-* Education Programs
-* Food Distribution Drives
-* Women Hygiene Campaigns
-* Clothing Support Initiatives
-* Impact Statistics
-* Community Gallery
-
-### 📞 Contact Page
-
-* Contact Form
-* Social Media Integration
-* Donation Section
-* Volunteer Inquiry Support
+* NGO Initiatives
+* Dark / Light Mode
 * Responsive Design
 
+## ℹ️ About Us Page
+
+* Organization Story
+* Mission & Vision
+* Team Members
+* Volunteer Information
+* Timeline & Milestones
+
+## 📚 Programs Page
+
+* Education Programs
+* Food Relief Activities
+* Women's Welfare Initiatives
+* Community Impact Statistics
+* Gallery Section
+
+## 📞 Contact Page
+
+* Contact Form
+* Social Media Links
+* Donation Section
+* Volunteer Inquiry Form
+
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 * HTML5
 * CSS3
@@ -58,26 +64,79 @@ This website was designed to showcase the foundation's mission, impact, programs
 
 ---
 
-## 📱 Responsive Design
+# 📂 Project Structure
 
-The website is fully responsive and optimized for:
+```text
+NayePankh-Foundation/
+│
+├── index.html
+├── about.html
+├── programs.html
+├── contact.html
+│
+├── style.css
+├── about.css
+├── programs.css
+├── contact.css
+│
+├── script.js
+│
+└── README.md
+```
+
+---
+
+# ⚙️ How To Run The Project
+
+### Method 1: Open Directly
+
+Simply open:
+
+```text
+index.html
+```
+
+in any modern browser.
+
+---
+
+### Method 2: Using VS Code Live Server
+
+1. Open project folder in VS Code
+2. Install Live Server Extension
+3. Right Click → Open With Live Server
+
+---
+
+# 🌙 Dark Mode
+
+The website includes a Dark / Light Theme Toggle.
+
+Theme preference is stored using:
+
+```javascript
+localStorage
+```
+
+for a better user experience.
+
+---
+
+# 📱 Responsive Design
+
+The website is optimized for:
 
 * Desktop
+* Laptop
 * Tablet
 * Mobile Devices
 
 ---
 
-## 🌙 Dark Mode Support
+# 📊 Impact Highlights
 
-Users can switch between Light and Dark themes using the built-in theme toggle.
-
----
-
-## 📊 Impact Highlights
-
-* 2,00,000+ Lives Impacted
-* 50,000+ Meals Distributed
+* 1,00,000+ Lives Impacted
+* 5,00,000+ Meals Distributed
 * 10,000+ Sanitary Kits Distributed
 * 10,00,000+ Clothes Donated
 * 500+ Volunteers
@@ -85,27 +144,67 @@ Users can switch between Light and Dark themes using the built-in theme toggle.
 
 ---
 
-## 🎯 Objective
+# 🔧 Git Setup Commands
 
-This project was developed as part of the **NayePankh Foundation Web Development Internship Selection Task** to demonstrate skills in:
+### Initialize Git
 
-* Frontend Development
-* Responsive Web Design
-* User Interface Design
-* Accessibility
-* Modern CSS Layouts
-* JavaScript Interactivity
+```bash
+git init
+```
+
+### Add Files
+
+```bash
+git add .
+```
+
+### Commit Changes
+
+```bash
+git commit -m "Initial commit - NayePankh Foundation Website"
+```
+
+### Create Main Branch
+
+```bash
+git branch -M main
+```
+
+### Connect GitHub Repository
+
+```bash
+git remote add origin https://github.com/SurajShaw-19/NayePankh-Foundation.git
+```
+
+### Push To GitHub
+
+```bash
+git push -u origin main
+```
 
 ---
 
-## 👨‍💻 Developed By
+# 📌 Future Improvements
 
-**Suraj Shaw**
+* Backend Integration
+* Online Donation Gateway
+* Volunteer Registration Database
+* Admin Dashboard
+* Real Activity Gallery
+* Blog & News Section
+
+---
+
+# 👨‍💻 Developed By
+
+**Suraj Prasad Shaw**
 
 Web Development Internship Applicant
 
+For the NayePankh Foundation Internship Selection Task.
+
 ---
 
-## 📄 License
+# 📄 License
 
-This project is developed for educational and internship evaluation purposes.
+This project is developed for educational and internship evaluation purposes only.
